@@ -1,0 +1,162 @@
+[
+    {
+        "id": 1,
+        "title": "Bleak House",
+        "author": "Charles Dickens",
+        "genre": "classic",
+        "image": "",
+        "completed": false      
+    },
+    {
+        "id": 2,
+        "title": "War and Peace",
+        "author": "Leo Tolstoy",
+        "genre": "classic",
+        "image": "",
+        "completed": false      
+    },
+    {
+        "id": 3,
+        "title": "The Count of Monte Cristo",
+        "author": "Alexandre Dumas",
+        "genre": "classic",
+        "image": "",
+        "completed": false      
+    },
+    {
+        "id": 4,
+        "title": "1776",
+        "author": "David McCullough",
+        "genre": "history",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/81QRiW8Z00L.jpg",
+        "completed": false      
+    },
+    {
+        "id": 5,
+        "title": "1984",
+        "author": "George Orwell",
+        "genre": "dystopian",
+        "image": "",
+        "completed": false      
+    },
+    {
+        "id": 6,
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "genre": "classic",
+        "image": "https://media1.popsugar-assets.com/files/thumbor/6pwpfj9AGEGlNh2-o3gY4EjHLbA/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2018/11/08/137/n/44498184/67ab3b0c3f94e190_5_78734/i/Great-Gatsby.jpg",
+        "completed": false      
+    },
+    {
+        "id": 7,
+        "title": "Les Misérables",
+        "author": "Victor Hugo",
+        "genre": "classic",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/81SGVhaL+dL.jpg",
+        "completed": false      
+    },
+    {
+        "id": 8,
+        "title": "The Moon-Spinners",
+        "author": "Mary Stewart",
+        "genre": "romance",
+        "image": "https://kbimages1-a.akamaihd.net/3ddd4125-3e6a-4cc7-9728-0a8bf989091e/1200/1200/False/the-moon-spinners-1.jpg",
+        "completed": false      
+    },
+    {
+        "id": 9,
+        "title": "Frankenstein",
+        "author": "Mary Shelley",
+        "genre": "horror",
+        "image": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781982146153/frankenstein-9781982146153_hr.jpg",
+        "completed": false      
+    },
+    {
+        "id": 10,
+        "title": "The Picture of Dorian Gray",
+        "author": "Oscar Wilde",
+        "genre": "classic",
+        "image": "",
+        "completed": false      
+    },
+    {
+        "id": 11,
+        "title": "Fahrenheit 451",
+        "author": "Ray Bradbury",
+        "genre": "dystopian",
+        "image": "",
+        "completed": false      
+    },
+    {
+        "id": 12,
+        "title": "Story",
+        "author": "Robert McKee",
+        "genre": "non-fiction",
+        "image": "",
+        "completed": false      
+    },
+    {
+        "id": 13,
+        "title": "Aimless Love",
+        "author": "Billy Collins",
+        "genre": "poetry",
+        "image": "",
+        "completed": false      
+    },
+    {
+        "id": 14,
+        "title": "Never Split the Difference",
+        "author": "Chris Voss",
+        "genre": "self-help",
+        "image": "",
+        "completed": false      
+    },
+    {
+        "id": 15,
+        "title": "The Remains of the Day",
+        "author": "Kazuo Ishiguro",
+        "genre": "historical fiction",
+        "image": "",
+        "completed": false      
+    },
+    {
+        "id": 16,
+        "title": "Mere Christianity",
+        "author": "C.S. Lewis",
+        "genre": "Christian",
+        "image": "",
+        "completed": false      
+    },
+    {
+        "id": 17,
+        "title": "How Will You Measure Your Life?",
+        "author": "Clayton Christensen",
+        "genre": "self-help",
+        "image": "",
+        "completed": false      
+    },
+    {
+        "id": 18,
+        "title": "Up from Slavery",
+        "author": "Booker T. Washington",
+        "genre": "autobiography",
+        "image": "",
+        "completed": false      
+    },
+    {
+        "id": 19,
+        "title": "Man's Search for Meaning",
+        "author": "Victor Frankl",
+        "genre": "psychology",
+        "image": "",
+        "completed": false      
+    },
+    {
+        "id": 20,
+        "title": "Intelligent Investor",
+        "author": "Benjamin Graham",
+        "genre": "non-fiction",
+        "image": "",
+        "completed": false      
+    }
+]
