@@ -4,7 +4,7 @@
         "title": "Bleak House",
         "author": "Charles Dickens",
         "genre": "classic",
-        "image": "",
+        "coverImg": "",
         "completed": false      
     },
     {
@@ -12,7 +12,7 @@
         "title": "War and Peace",
         "author": "Leo Tolstoy",
         "genre": "classic",
-        "image": "",
+        "coverImg": "",
         "completed": false      
     },
     {
@@ -20,7 +20,7 @@
         "title": "The Count of Monte Cristo",
         "author": "Alexandre Dumas",
         "genre": "classic",
-        "image": "",
+        "coverImg": "",
         "completed": false      
     },
     {
@@ -28,7 +28,7 @@
         "title": "1776",
         "author": "David McCullough",
         "genre": "history",
-        "image": "https://images-na.ssl-images-amazon.com/images/I/81QRiW8Z00L.jpg",
+        "coverImg": "https://images-na.ssl-images-amazon.com/images/I/81QRiW8Z00L.jpg",
         "completed": false      
     },
     {
@@ -36,7 +36,7 @@
         "title": "1984",
         "author": "George Orwell",
         "genre": "dystopian",
-        "image": "",
+        "coverImg": "",
         "completed": false      
     },
     {
@@ -44,7 +44,7 @@
         "title": "The Great Gatsby",
         "author": "F. Scott Fitzgerald",
         "genre": "classic",
-        "image": "https://media1.popsugar-assets.com/files/thumbor/6pwpfj9AGEGlNh2-o3gY4EjHLbA/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2018/11/08/137/n/44498184/67ab3b0c3f94e190_5_78734/i/Great-Gatsby.jpg",
+        "coverImg": "https://media1.popsugar-assets.com/files/thumbor/6pwpfj9AGEGlNh2-o3gY4EjHLbA/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2018/11/08/137/n/44498184/67ab3b0c3f94e190_5_78734/i/Great-Gatsby.jpg",
         "completed": false      
     },
     {
@@ -52,7 +52,7 @@
         "title": "Les Misérables",
         "author": "Victor Hugo",
         "genre": "classic",
-        "image": "https://images-na.ssl-images-amazon.com/images/I/81SGVhaL+dL.jpg",
+        "coverImg": "https://images-na.ssl-images-amazon.com/images/I/81SGVhaL+dL.jpg",
         "completed": false      
     },
     {
@@ -60,7 +60,7 @@
         "title": "The Moon-Spinners",
         "author": "Mary Stewart",
         "genre": "romance",
-        "image": "https://kbimages1-a.akamaihd.net/3ddd4125-3e6a-4cc7-9728-0a8bf989091e/1200/1200/False/the-moon-spinners-1.jpg",
+        "coverImg": "https://kbimages1-a.akamaihd.net/3ddd4125-3e6a-4cc7-9728-0a8bf989091e/1200/1200/False/the-moon-spinners-1.jpg",
         "completed": false      
     },
     {
@@ -68,7 +68,7 @@
         "title": "Frankenstein",
         "author": "Mary Shelley",
         "genre": "horror",
-        "image": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781982146153/frankenstein-9781982146153_hr.jpg",
+        "coverImg": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781982146153/frankenstein-9781982146153_hr.jpg",
         "completed": false      
     },
     {
@@ -76,7 +76,7 @@
         "title": "The Picture of Dorian Gray",
         "author": "Oscar Wilde",
         "genre": "classic",
-        "image": "",
+        "coverImg": "",
         "completed": false      
     },
     {
@@ -84,7 +84,7 @@
         "title": "Fahrenheit 451",
         "author": "Ray Bradbury",
         "genre": "dystopian",
-        "image": "",
+        "coverImg": "",
         "completed": false      
     },
     {
@@ -92,7 +92,7 @@
         "title": "Story",
         "author": "Robert McKee",
         "genre": "non-fiction",
-        "image": "",
+        "coverImg": "",
         "completed": false      
     },
     {
@@ -100,7 +100,7 @@
         "title": "Aimless Love",
         "author": "Billy Collins",
         "genre": "poetry",
-        "image": "",
+        "coverImg": "",
         "completed": false      
     },
     {
@@ -108,7 +108,7 @@
         "title": "Never Split the Difference",
         "author": "Chris Voss",
         "genre": "self-help",
-        "image": "",
+        "coverImg": "",
         "completed": false      
     },
     {
@@ -116,7 +116,7 @@
         "title": "The Remains of the Day",
         "author": "Kazuo Ishiguro",
         "genre": "historical fiction",
-        "image": "",
+        "coverImg": "",
         "completed": false      
     },
     {
@@ -124,7 +124,7 @@
         "title": "Mere Christianity",
         "author": "C.S. Lewis",
         "genre": "Christian",
-        "image": "",
+        "coverImg": "",
         "completed": false      
     },
     {
@@ -132,7 +132,7 @@
         "title": "How Will You Measure Your Life?",
         "author": "Clayton Christensen",
         "genre": "self-help",
-        "image": "",
+        "coverImg": "",
         "completed": false      
     },
     {
@@ -140,7 +140,7 @@
         "title": "Up from Slavery",
         "author": "Booker T. Washington",
         "genre": "autobiography",
-        "image": "",
+        "coverImg": "",
         "completed": false      
     },
     {
@@ -148,7 +148,7 @@
         "title": "Man's Search for Meaning",
         "author": "Victor Frankl",
         "genre": "psychology",
-        "image": "",
+        "coverImg": "",
         "completed": false      
     },
     {
@@ -156,7 +156,7 @@
         "title": "Intelligent Investor",
         "author": "Benjamin Graham",
         "genre": "non-fiction",
-        "image": "",
+        "coverImg": "",
         "completed": false      
     }
 ]
