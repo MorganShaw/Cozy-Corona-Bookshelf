@@ -1,4 +1,4 @@
-let books = require('./books.json');
+const books = require('./books.json');
 let nextId = 21;
 
 module.exports = {
@@ -10,9 +10,8 @@ module.exports = {
         const {genre} = req.query
         // console.log(req.query)
         let filteredGenre = books.filter(book => book.genre === genre)
-        console.log(filteredGenre)
-        books = filteredGenre
-        res.status(200).send(books)
+        // console.log(filteredGenre)
+        res.status(200).send(filteredGenre)
     },
     addBook: (req, res) => {
         // console.log(req.body)
@@ -37,9 +36,9 @@ module.exports = {
     //Once again - check deleteBook. I made books above let instead of const and it's working in Postman.
     deleteBook: (req, res) => {
         const {id} = req.params
-        books = books.filter(book => book.id !== +id )
+        let booksAfterDelete = books.filter(book => book.id !== +id )
         // console.log(req.params)
-        res.status(200).send(books)
+        res.status(200).send(booksAfterDelete)
         
     },
     completeBook: (req, res) => {
@@ -54,3 +53,5 @@ module.exports = {
 
 // With complete book, I'm trying to
 //find id of book that is completed. If the id in the array books matches the id in the req.query, change status from completed false to completed true. There will be a toggle function in react for this with conditional rendering.
+
+//getGenre above - Pro tip from Rob: In the real world, you wouldn't use a query like this, because you already have all the information from the getBooks handler, and you can filter that on the front-end. Some sites charge per http transaction, so having an unnecessary query could increase your cost quite a bit. I'm doing this for the project just to get practice with query (and to get the 2 points). 

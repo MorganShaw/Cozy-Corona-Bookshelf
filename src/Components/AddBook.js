@@ -1,7 +1,8 @@
-import React from 'react';
-import './Book'
-import './Bookshelf.css'
-class Bookshelf extends React.Component {
+import React from "react";
+import './AddBook.css';
+
+
+class AddBook extends React.Component {
     constructor(){
         super();
         this.state = {
@@ -18,4 +19,4 @@ class Bookshelf extends React.Component {
     }
 }
 
-export default Bookshelf;
+export default AddBook;

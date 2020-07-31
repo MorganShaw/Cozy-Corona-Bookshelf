@@ -1,0 +1,21 @@
+header {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(62, 95, 104);
+    margin-top: 40px;
+    position: fixed;
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* Update font styling. */
+p {
+    color: white;
+    font-size: 68px;
+    font-family: sans-serif;
+    display: flex;
+   
+}
