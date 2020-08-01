@@ -4,7 +4,8 @@ import './reset.css';
 import './App.css';
 import Header from './Components/Header';
 import AddBook from './Components/AddBook';
-import Bookshelf from './Components/Bookshelf'
+import Bookshelf from './Components/Bookshelf';
+import GenreSelector from './Components/GenreSelector'
 class App extends React.Component {
   constructor() {
     super();
@@ -73,10 +74,13 @@ class App extends React.Component {
           completeBook={this.completeBook}
           deleteBook={this.deleteBook}
           books={this.state.books} />
-        <AddBook 
-          addBook={this.addBook} />
-        <GenreSelector 
-          getGenre={this.getGenre} />  
+        <div className="right-components">
+          <GenreSelector 
+            books={this.state.books}
+            getGenre={this.getGenre} />  
+          <AddBook 
+            addBook={this.addBook} />
+        </div>    
       </div>
     );
   }

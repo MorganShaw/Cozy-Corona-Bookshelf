@@ -1,12 +1,10 @@
 import React from "react";
 import '../reset.css';
 import './AddBook.css';
-import Book from "./Book";
-
 
 class AddBook extends React.Component {
-    constructor(){
-        super();
+    constructor(props){
+        super(props);
         this.state = {
             title: '',
             author: '',
@@ -22,24 +20,45 @@ class AddBook extends React.Component {
     }
 
     render(){
-        const mappedBooks = props.books.map(book => {
-            return <Book
-                    key={book.id}
-                    book={book} />
-        })
+        const {title, author, genre, coverImg} = this.state;
+        const {addBook} = this.props;
         return(
             <div>
                 <form
                     onSubmit={e => {
-                        this.props.addBook
+                        addBook(e, title, author, genre, coverImg)
+                        this.setState({
+                            title: "",
+                            author: "",
+                            genre: "",
+                            coverImg: ""
+                        })
                     }}>
                     <input 
                         name="title"
                         type="text"
                         placeholder="Title"
                         onChange={(e) => this.infoHandler(e)}
-                        value={this.state.title}/>
-                    <button>Add</button>
+                        value={title}/>
+                    <input 
+                        name="author"
+                        type="text"
+                        placeholder="Author"
+                        onChange={(e) => this.infoHandler(e)}
+                        value={author}/>
+                    <input 
+                        name="genre"
+                        type="text"
+                        placeholder="Genre"
+                        onChange={(e) => this.infoHandler(e)}
+                        value={genre}/>
+                    <input 
+                        name="coverImg"
+                        type="text"
+                        placeholder="Cover Image Optional"
+                        onChange={(e) => this.infoHandler(e)}
+                        value={coverImg}/>
+                    <button>Add Book</button>
 
                 </form>        
 

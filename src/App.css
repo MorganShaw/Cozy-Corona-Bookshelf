@@ -1,5 +1,11 @@
 .App {
     background-color: rgb(172, 172, 172);
-    height: 150vh;
+    background-image: url(https://images.unsplash.com/photo-1472173148041-00294f0814a2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80);
+    opacity: 0.5;
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    /* height: 150vh; */
     width: 100vw;
 }
+
