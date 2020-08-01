@@ -8,6 +8,12 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-style: inset;
+    /* border-color: rgb(40, 61, 66); */
+    border-width: medium;
+    border-left: 0;
+    border-right: 0;
+    
 
 }
 
