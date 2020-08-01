@@ -17,3 +17,5 @@ const GenreSelector = (props) => {
 }
 
 export default GenreSelector;
+
+//Work on genre selector. Need conditional rendering when books in bookshelf match the genre typed in.

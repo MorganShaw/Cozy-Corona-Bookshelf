@@ -6,7 +6,7 @@ const Book = (props) => {
     return (
         <div>
             <span className="book-box">
-                <img src={props.book.coverImg} alt="Book Cover"/>
+                {/* <img src={props.book.coverImg} alt="Book Cover"/> */}
                 <h1 className="book-title">{props.book.title}</h1>
                 <h2 className="book-author">{props.book.author}</h2>
                 <div className="bk-btn-container">

@@ -1,27 +1,32 @@
 header {
-    height: 100px;
-    width: 100%;
-    background-color: rgb(62, 95, 104);
-    margin-top: 40px;
-    position: fixed;
-    vertical-align: middle;
+    height: 120px;
+    width: 80%;
+    background-color: #535151;
+    /* background-color: rgb(62, 95, 104); */
+    opacity: 0.85;
+    top: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+    position: absolute;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    border-style: inset;
-    /* border-color: rgb(40, 61, 66); */
-    border-width: medium;
-    border-left: 0;
-    border-right: 0;
+    box-shadow: rgb(61, 60, 60);
     
 
 }
 
-/* Update font styling. */
 p {
-    color: white;
-    font-size: 68px;
-    font-family: sans-serif;
+    color: #bb6054;
+    font-size: 100px;
+    font-family: "Dawning of a New Day", cursive;
+    font-weight: lighter;
     display: flex;
+
    
 }
+
+
+
+
+/* Get font for header. */

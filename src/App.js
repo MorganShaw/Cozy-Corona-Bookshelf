@@ -69,21 +69,25 @@ class App extends React.Component {
     console.log(this.state)
     return (
       <div className="App">
-        <Header />
-        <Bookshelf 
-          completeBook={this.completeBook}
-          deleteBook={this.deleteBook}
-          books={this.state.books} />
-        <div className="right-components">
-          <GenreSelector 
-            books={this.state.books}
-            getGenre={this.getGenre} />  
-          <AddBook 
-            addBook={this.addBook} />
-        </div>    
+        <div className="page-background">
+          <Header />
+          <Bookshelf 
+            completeBook={this.completeBook}
+            deleteBook={this.deleteBook}
+            books={this.state.books} />
+          <div className="right-components">
+            <GenreSelector 
+              books={this.state.books}
+              getGenre={this.getGenre} />  
+            <AddBook 
+              addBook={this.addBook} />
+          </div>    
+        </div>
       </div>
     );
   }
 }
 
 export default App;
+
+//Work on complete function. Need conditional rendering for when books are completed. 
