@@ -37,7 +37,7 @@ class App extends React.Component {
     }).catch(err => console.log(err))
   }
 
-  getOneBook(genre){
+  getGenre = (genre) => {
     axios.get('/api/books/genre')
     .then(res => {
       this.setState({
@@ -65,16 +65,18 @@ class App extends React.Component {
   }
   
   render() {
+    console.log(this.state)
     return (
       <div className="App">
         <Header />
         <Bookshelf 
           completeBook={this.completeBook}
           deleteBook={this.deleteBook}
-          
-          />
+          books={this.state.books} />
         <AddBook 
-          newBook={this.addBook}/>
+          addBook={this.addBook} />
+        <GenreSelector 
+          getGenre={this.getGenre} />  
       </div>
     );
   }
