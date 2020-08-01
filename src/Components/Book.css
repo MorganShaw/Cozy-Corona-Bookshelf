@@ -1,8 +1,22 @@
 .book-box {
-    height: 200px;
-    width: 100px;
-    background-color: gray;
+    height: 150px;
+    width: 150px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    background-color: #535151;
+    opacity: 0.8;
     background-position: center;
     background-size: cover;
     background-repeat: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
 }
+
+.box>* {
+    flex: 1 1 150px;
+}
+
+.

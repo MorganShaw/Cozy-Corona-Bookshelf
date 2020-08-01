@@ -1,15 +1,17 @@
 .App {
     background-color: rgb(116, 110, 110);
     width: 100vw;
+    height: 200vh;
     position: relative;
     /* display: flex; */
+    /* justify-content: ; */
 
 }
 
 .App::before {
     content: "";
     background-image: url(https://images.unsplash.com/photo-1472173148041-00294f0814a2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80);
-    opacity: 0.3;
+    opacity: 0.2;
     background-position: center;
     background-size: cover;
     background-repeat: none;
@@ -20,6 +22,37 @@
     bottom: 0;
 }
 
-.page-background {
+.page {
+    width: 90%;
+    height: 930px;
+    margin-left: 5%;
+    margin-right: 5%;
+    position: relative;
     display: flex;
+    justify-content: center;
+    /* align-items: center; */
+
+}
+
+.under-header {
+    display: flex;
+    width: 100%;
+    height: 800px;
+    position: unset;
+    margin-top: 180px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+
+.right-components {
+    height: 800px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
