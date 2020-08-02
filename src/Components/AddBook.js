@@ -23,7 +23,7 @@ class AddBook extends React.Component {
         const {title, author, genre, coverImg} = this.state;
         const {addBook} = this.props;
         return(
-            <div>
+            <div className="add-form">
                 <form
                     onSubmit={e => {
                         addBook(e, title, author, genre, coverImg)
@@ -58,7 +58,7 @@ class AddBook extends React.Component {
                         placeholder="Cover Image Optional"
                         onChange={(e) => this.infoHandler(e)}
                         value={coverImg}/>
-                    <button>Add Book</button>
+                    <button>ADD</button>
 
                 </form>        
 

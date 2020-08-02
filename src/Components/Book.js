@@ -3,18 +3,23 @@ import "../reset.css";
 import "./Book.css";
 
 const Book = (props) => {
+    const style = {
+        backgroundImage: "url("+props.book.coverImg+")",
+        backgroundSize: "100% 100%"
+    }
     return (
         <div>
-            <span className="book-box">
-                {/* <img src={props.book.coverImg} alt="Book Cover"/> */}
-                <h1 className="book-title">{props.book.title}</h1>
-                <h2 className="book-author">{props.book.author}</h2>
-                <div className="bk-btn-container">
-                    <button onClick={() => props.completeBook(props.book.id)}>Complete</button>
-                    <button onClick={() => props.deleteBook(props.book.id)}>Delete</button>
+            <div className="book-box" style={style}>
+                <div className="ttl-author-container">
+                    <h1 className="book-title">{props.book.title}</h1>
+                    <h2 className="book-author">{props.book.author}</h2>
                 </div>
-
-            </span>
+                <div className="bk-btn-container">
+                    <button onClick={() => props.completeBook(props.book.id)}>DONE</button>
+                    <button onClick={() => props.deleteBook(props.book.id)}>DELETE</button>
+                </div>
+            </div>
+            
         </div>
     )
 }

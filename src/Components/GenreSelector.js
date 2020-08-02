@@ -4,7 +4,8 @@ const GenreSelector = (props) => {
     return (
         <div>
             <div className="genre-box">
-                <input
+                <input 
+                    className="input-fields"
                     name="genre"
                     type="text"
                     value={props.books.genre}

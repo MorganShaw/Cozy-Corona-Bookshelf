@@ -57,7 +57,7 @@ class App extends React.Component {
   }
 
   completeBook = (id) => {
-    axios.put(`/api/books/${id}`)
+    axios.put(`/api/books/complete/${id}`)
     .then(res => {
       this.setState({
         books: res.data

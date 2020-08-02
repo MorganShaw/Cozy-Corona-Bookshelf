@@ -1,21 +1,23 @@
 header {
     height: 120px;
     width: 100%;
-    background-color: #535151;
-    opacity: 0.85;
+    background-color: #202020b4;
     top: 40px;
     position: absolute;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    box-shadow: 2px 2px 2px rgb(61, 60, 60);
+    padding: 10px;
+    /* box-shadow: 2px 2px 2px rgb(61, 60, 60); */
 }
 
 p {
-    color: #bb6054;
-    font-size: 80px;
-    font-family: "Dawning of a New Day", cursive;
+    color: #d16868;
+    font-size: 100px;
+    font-family: "Poiret One", cursive;
+    /* font-family: "Dawning of a New Day", cursive; */
     font-weight: lighter;
-    text-shadow: 2px 1px 5px rgb(54, 52, 52);
+    /* text-shadow: 1px 1px 5px rgb(54, 52, 52); */
     display: flex;   
 }
+ 
