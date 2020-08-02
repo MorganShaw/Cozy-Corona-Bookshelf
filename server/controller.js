@@ -5,7 +5,7 @@ module.exports = {
     getBooks: (req, res) => {
         res.status(200).send(books)
     },
-    //Check to make sure getGenre is right. I changed books up above to be let instead of const, and now it's working in postman.
+   
     getGenre: (req, res) => {
         const {genre} = req.query
         // console.log(req.query)
@@ -33,7 +33,7 @@ module.exports = {
             // console.log(newBook)
         }
     },
-    //Once again - check deleteBook. I made books above let instead of const and it's working in Postman.
+   
     deleteBook: (req, res) => {
         const {id} = req.params
         let booksAfterDelete = books.filter(book => book.id !== +id )

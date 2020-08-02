@@ -2,6 +2,9 @@ import React from "react";
 import "./GenreSelector.css"
 
 const GenreSelector = (props) => {
+    // const filteredGenre = props.books.filter(book => book.genre === 
+    // })
+    const {genre} = props.books;
     return (
         <div>
             <div className="genre-box">
@@ -10,9 +13,9 @@ const GenreSelector = (props) => {
                     className="input-fields"
                     name="genre"
                     type="text"
-                    value={props.books.genre}
-                    onChange={props.getGenre}
-                    placeholder="Genre"/>
+                    // value={props.books.genre}
+                    onChange={() => props.getGenre(genre)}
+                    placeholder="genre"/>
             </div>
 
         </div>
