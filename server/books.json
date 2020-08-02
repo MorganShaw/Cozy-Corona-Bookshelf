@@ -4,7 +4,7 @@
         "title": "Bleak House",
         "author": "Charles Dickens",
         "genre": "classic",
-        "coverImg": "",
+        "coverImg": "https://images-na.ssl-images-amazon.com/images/I/81vdO+KxLEL.jpg",
         "completed": false      
     },
     {
@@ -12,7 +12,7 @@
         "title": "War and Peace",
         "author": "Leo Tolstoy",
         "genre": "classic",
-        "coverImg": "",
+        "coverImg": "https://images-na.ssl-images-amazon.com/images/I/A1aDb5U5myL.jpg",
         "completed": false      
     },
     {
@@ -20,7 +20,7 @@
         "title": "The Count of Monte Cristo",
         "author": "Alexandre Dumas",
         "genre": "classic",
-        "coverImg": "",
+        "coverImg": "https://images-na.ssl-images-amazon.com/images/I/71RCIOaAqZL.jpg",
         "completed": false      
     },
     {
@@ -36,7 +36,7 @@
         "title": "1984",
         "author": "George Orwell",
         "genre": "dystopian",
-        "coverImg": "",
+        "coverImg": "https://miro.medium.com/max/2816/1*3_6hErQC_tpjq2W17RP4xg.jpeg",
         "completed": false      
     },
     {
@@ -76,7 +76,7 @@
         "title": "The Picture of Dorian Gray",
         "author": "Oscar Wilde",
         "genre": "classic",
-        "coverImg": "",
+        "coverImg": "https://kbimages1-a.akamaihd.net/c94d85c6-a82d-4ab8-93bd-9fbc513d8ae6/1200/1200/False/the-picture-of-dorian-gray-147.jpg",
         "completed": false      
     },
     {
@@ -84,7 +84,7 @@
         "title": "Fahrenheit 451",
         "author": "Ray Bradbury",
         "genre": "dystopian",
-        "coverImg": "",
+        "coverImg": "https://images-na.ssl-images-amazon.com/images/I/71ub2nWheJL.jpg",
         "completed": false      
     },
     {
@@ -92,7 +92,7 @@
         "title": "Story",
         "author": "Robert McKee",
         "genre": "non-fiction",
-        "coverImg": "",
+        "coverImg": "https://i0.wp.com/cgfewston.me/wp-content/uploads/2018/01/3062431-inline-i-7-robert-mckee-on-dialogue.jpg?resize=348%2C520&ssl=1",
         "completed": false      
     },
     {
@@ -100,7 +100,7 @@
         "title": "Aimless Love",
         "author": "Billy Collins",
         "genre": "poetry",
-        "coverImg": "",
+        "coverImg": "https://panmacmillanapi.blob.core.windows.net/pmapi/e12a8195-4610-4b2d-fa9f-08d58e45775c/editions/664b6a7a-db3a-4988-85d6-08d5dd189b0a/original_400_600.jpg",
         "completed": false      
     },
     {
@@ -108,7 +108,7 @@
         "title": "Never Split the Difference",
         "author": "Chris Voss",
         "genre": "self-help",
-        "coverImg": "",
+        "coverImg": "https://img1.od-cdn.com/ImageType-100/0293-1/%7B3099E8B4-FB18-4F0C-AF52-0529AE70C037%7DImg100.jpg",
         "completed": false      
     },
     {
@@ -116,7 +116,7 @@
         "title": "The Remains of the Day",
         "author": "Kazuo Ishiguro",
         "genre": "historical fiction",
-        "coverImg": "",
+        "coverImg": "https://images-na.ssl-images-amazon.com/images/I/81H6p+iod1L.jpg",
         "completed": false      
     },
     {
@@ -124,7 +124,7 @@
         "title": "Mere Christianity",
         "author": "C.S. Lewis",
         "genre": "Christian",
-        "coverImg": "",
+        "coverImg": "https://images-na.ssl-images-amazon.com/images/I/71pSod9GH8L.jpg",
         "completed": false      
     },
     {
@@ -132,7 +132,7 @@
         "title": "How Will You Measure Your Life?",
         "author": "Clayton Christensen",
         "genre": "self-help",
-        "coverImg": "",
+        "coverImg": "https://miro.medium.com/max/3672/1*Udu23VQpI7Eh6YaSQU2ZlQ.jpeg",
         "completed": false      
     },
     {
@@ -140,7 +140,7 @@
         "title": "Up from Slavery",
         "author": "Booker T. Washington",
         "genre": "autobiography",
-        "coverImg": "",
+        "coverImg": "https://images-na.ssl-images-amazon.com/images/I/71a8xLFy-mL.jpg",
         "completed": false      
     },
     {
@@ -148,7 +148,7 @@
         "title": "Man's Search for Meaning",
         "author": "Victor Frankl",
         "genre": "psychology",
-        "coverImg": "",
+        "coverImg": "https://images-na.ssl-images-amazon.com/images/I/91W2ur2M6eL.jpg",
         "completed": false      
     },
     {
@@ -156,7 +156,7 @@
         "title": "The Intelligent Investor",
         "author": "Benjamin Graham",
         "genre": "non-fiction",
-        "coverImg": "",
+        "coverImg": "https://images-na.ssl-images-amazon.com/images/I/91yj3mbz4JL.jpg",
         "completed": false      
     }
 ]

@@ -6,7 +6,7 @@ const Book = (props) => {
     const {id, title, author} = props.book
     const style = {
         backgroundImage: "url("+props.book.coverImg+")",
-        backgroundSize: "100% 100%"
+        backgroundSize: "100% 100%",
     }
     return (
         <div> {props.book.completed ? (
