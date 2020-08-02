@@ -50,7 +50,7 @@
 }
 
 .right-components {
-    height: 515px;
+    height: 730px;
     width: 180px;
     display: flex;
     flex-direction: column;
@@ -67,6 +67,7 @@ button {
     border: none;
     background-color: rgba(32, 32, 32, 0.938);
     color: rgb(221, 219, 219);
+    padding: none;
 }
 
 input {
@@ -83,4 +84,12 @@ input {
     font-weight: bold;
     font-size: 30px;
     margin-bottom: 10px;
+}
+
+.right-pg-text-small {
+    color: white;
+    font-family: "Poiret One", cursive;
+    font-weight: bold;
+    font-size: 26px;
+    margin-bottom: 60px;
 }

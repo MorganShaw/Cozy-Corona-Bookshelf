@@ -47,3 +47,29 @@
     justify-content: space-between;
     padding: 7px;
 }
+
+.bk-done-container {
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+
+.book-done {
+    font-size: 28px;
+    display: flex;
+    font-weight: bolder;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    color: rgb(250, 245, 245);
+    background-color: #252525d7;
+    height: 200px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+
+.bk-done-container > button {
+    width: 80px;
+}

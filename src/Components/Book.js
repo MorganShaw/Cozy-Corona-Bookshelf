@@ -8,7 +8,15 @@ const Book = (props) => {
         backgroundSize: "100% 100%"
     }
     return (
-        <div>
+        <div> {props.book.completed ? (
+            <div className="book-box" style={style}>
+                <h1 className="book-done">You finished {props.book.title}</h1>  
+                <div className="bk-done-container">
+                    <button onClick={() => props.completeBook(props.book.id)}>RE-READ</button>
+                    <button onClick={() => props.deleteBook(props.book.id)}>DELETE</button>
+                </div>             
+            </div>
+        ) : (
             <div className="book-box" style={style}>
                 <div className="ttl-author-container">
                     <h1 className="book-title">{props.book.title}</h1>
@@ -19,6 +27,7 @@ const Book = (props) => {
                     <button onClick={() => props.deleteBook(props.book.id)}>DELETE</button>
                 </div>
             </div>
+        )}
             
         </div>
     )

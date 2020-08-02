@@ -8,7 +8,10 @@ const GenreSelector = (props) => {
     return (
         <div>
             <div className="genre-box">
-                <h1 className="right-pg-text">What genre are you in the mood for?</h1>
+                <h1 className="right-pg-text-small">
+                    Keep track of the books on your bookshelf you now have time to read. Thanks, Covid!</h1>
+                <h1 className="right-pg-text"> 
+                   What genre are you in the mood for?</h1>
                 <input 
                     className="input-fields"
                     name="genre"

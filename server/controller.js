@@ -27,8 +27,8 @@ module.exports = {
                 coverImg,
                 completed: false
             }
-            nextId++;
             books.push(newBook);
+            nextId++;
             res.status(200).send(books)
             // console.log(newBook)
         }
@@ -36,18 +36,29 @@ module.exports = {
    
     deleteBook: (req, res) => {
         const {id} = req.params
-        let booksAfterDelete = books.filter(book => book.id !== +id )
+        const index = books.findIndex(book => book.id === +id)
+        if(index === -1) {
+            res.status(404).send("Book not found in bookshelf.")
+        } else {
+            books.splice(index, 1)
+            res.status(200).send(books)
+        }
+        // let booksAfterDelete = books.filter(book => book.id !== +id )
         // console.log(req.params)
-        res.status(200).send(booksAfterDelete)
+        res.status(200).send(books)
         
     },
     completeBook: (req, res) => {
         const {id} = req.params
         // console.log(req.params)
         const index = books.findIndex(book => book.id === +id)
-        books[index].completed = true
-        console.log(books[index])
-        res.status(200).send(books)
+        if(index === -1) {
+            res.status(404).send("Book not found in the bookshelf.")
+        } else {
+            books[index].completed = !books[index].completed
+            console.log(books[index])
+            res.status(200).send(books)
+        }
     }
 }
 

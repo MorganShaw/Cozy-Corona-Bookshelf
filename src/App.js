@@ -12,6 +12,11 @@ class App extends React.Component {
     this.state  = {
       books: [] 
     }
+    this.getBooks = this.getBooks.bind(this)
+    this.getGenre = this.getGenre.bind(this)
+    this.addBook = this.addBook.bind(this)
+    this.deleteBook = this.deleteBook.bind(this)
+    this.completeBook = this.completeBook.bind(this)
   }
 
   componentDidMount() {
@@ -29,7 +34,7 @@ class App extends React.Component {
 
   //Look at this - is this right?
   addBook = (e, title, author, genre, coverImg) => {
-    // e.preventDefault()
+    e.preventDefault()
     axios.post('/api/books', {title, author, genre, coverImg})
     .then(res => {
       this.setState({
@@ -93,3 +98,5 @@ class App extends React.Component {
 export default App;
 
 //Work on complete function. Need conditional rendering for when books are completed. 
+
+//What's the e.preventDefault for?
