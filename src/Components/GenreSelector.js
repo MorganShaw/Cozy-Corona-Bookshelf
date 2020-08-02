@@ -9,15 +9,16 @@ const GenreSelector = (props) => {
         <div>
             <div className="genre-box">
                 <h1 className="right-pg-text-small">
-                    Keep track of the books on your bookshelf you now have time to read. Thanks, Covid!</h1>
+                    Keep track of books on your bookshelf that you now have time to read. <br/>Thanks, Covid!</h1>
                 <h1 className="right-pg-text"> 
                    What genre are you in the mood for?</h1>
                 <input 
                     className="input-fields"
                     name="genre"
                     type="text"
-                    // value={props.books.genre}
-                    onChange={() => props.getGenre(genre)}
+                    value={genre}
+                    //Do I need value? What would that mean?
+                    onChange={(e) => props.getGenre(genre)}
                     placeholder="genre"/>
             </div>
 
@@ -27,4 +28,4 @@ const GenreSelector = (props) => {
 
 export default GenreSelector;
 
-//Work on genre selector. Need conditional rendering when books in bookshelf match the genre typed in.
+//Work on genre selector.

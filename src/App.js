@@ -44,7 +44,7 @@ class App extends React.Component {
   }
 
   getGenre = (genre) => {
-    axios.get('/api/books/genre')
+    axios.get(`/api/books/genre?genre=${genre}`)
     .then(res => {
       this.setState({
         books: res.data
@@ -97,6 +97,8 @@ class App extends React.Component {
 
 export default App;
 
-//Work on complete function. Need conditional rendering for when books are completed. 
+//The getGenre isn't working. 
 
 //What's the e.preventDefault for?
+
+//Do I need to bind all those functions? I know they're arrow functions. Does it matter?

@@ -3,6 +3,7 @@ import "../reset.css";
 import "./Book.css";
 
 const Book = (props) => {
+    const {id, title, author} = props.book
     const style = {
         backgroundImage: "url("+props.book.coverImg+")",
         backgroundSize: "100% 100%"
@@ -10,21 +11,21 @@ const Book = (props) => {
     return (
         <div> {props.book.completed ? (
             <div className="book-box" style={style}>
-                <h1 className="book-done">You finished {props.book.title}</h1>  
+                <h1 className="book-done">You finished {title}</h1>  
                 <div className="bk-done-container">
-                    <button onClick={() => props.completeBook(props.book.id)}>RE-READ</button>
-                    <button onClick={() => props.deleteBook(props.book.id)}>DELETE</button>
+                    <button onClick={() => props.completeBook(id)}>RE-READ</button>
+                    <button onClick={() => props.deleteBook(id)}>DELETE</button>
                 </div>             
             </div>
         ) : (
             <div className="book-box" style={style}>
                 <div className="ttl-author-container">
-                    <h1 className="book-title">{props.book.title}</h1>
-                    <h2 className="book-author">{props.book.author}</h2>
+                    <h1 className="book-title">{title}</h1>
+                    <h2 className="book-author">{author}</h2>
                 </div>
                 <div className="bk-btn-container">
-                    <button onClick={() => props.completeBook(props.book.id)}>DONE</button>
-                    <button onClick={() => props.deleteBook(props.book.id)}>DELETE</button>
+                    <button onClick={() => props.completeBook(id)}>DONE</button>
+                    <button onClick={() => props.deleteBook(id)}>DELETE</button>
                 </div>
             </div>
         )}
