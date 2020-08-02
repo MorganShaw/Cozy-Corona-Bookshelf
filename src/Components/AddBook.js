@@ -24,6 +24,7 @@ class AddBook extends React.Component {
         const {addBook} = this.props;
         return(
             <div className="add-form">
+                <h1 className="right-pg-text">Add a book to your bookshelf</h1>
                 <form
                     onSubmit={e => {
                         addBook(e, title, author, genre, coverImg)
@@ -55,10 +56,10 @@ class AddBook extends React.Component {
                     <input 
                         name="coverImg"
                         type="text"
-                        placeholder="Cover Image Optional"
+                        placeholder="Cover Image URL (Optional)"
                         onChange={(e) => this.infoHandler(e)}
                         value={coverImg}/>
-                    <button>ADD</button>
+                    <button>SUBMIT</button>
 
                 </form>        
 
