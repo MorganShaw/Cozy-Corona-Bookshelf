@@ -57,7 +57,7 @@ module.exports = {
         } else {
             books[index].completed = !books[index].completed
             console.log(books[index])
-            res.status(200).send(books)
+            res.status(200).send(books[index])
         }
     }
 }

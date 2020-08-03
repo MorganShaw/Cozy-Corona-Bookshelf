@@ -1,8 +1,8 @@
 .book-box {
     height: 200px;
     width: 160px;
-    margin-right: 10px;
-    margin-bottom: 15px;
+    margin-right: 25px;
+    margin-bottom: 25px;
     background-color: #0505058c;
     opacity: 0.87;
     display: flex;

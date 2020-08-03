@@ -24,8 +24,8 @@ class GenreSelector extends React.Component {
         return (
             <div>
                 <div className="genre-box">
-                    <h1 className="right-pg-text"> 
-                       What genre are you in the mood for?</h1>
+                    <h1 className="right-pg-text right-pg-genre">
+                       What genre are you <br/>in the mood for?</h1>
                     <input 
                         className="input-fields"
                         name="genre"
@@ -36,7 +36,7 @@ class GenreSelector extends React.Component {
                         placeholder="genre"/>
                     <button
                         onClick={(e) => {
-                            this.props.getGenre(e, this.state.genre)
+                            this.props.getGenre(this.state.genre)
                             this.setState({genre: ""})
                         }
                         }

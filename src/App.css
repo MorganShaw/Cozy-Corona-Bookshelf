@@ -3,15 +3,14 @@
     width: 100vw;
     height: 300vh;
     position: relative;
-    /* display: flex; */
-    /* justify-content: ; */
-
 }
 
 .App::before {
     content: "";
     /* background-image: url(https://images.unsplash.com/photo-1472173148041-00294f0814a2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80); */
     background-image: url(https://images.unsplash.com/photo-1496104679561-38d3af73f9b0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1561&q=80);
+    /* background-image: url(https://images-na.ssl-images-amazon.com/images/I/81RCT8ty4aL._AC_SL1468_.jpg); */
+    /* background-image: url(https://mk-website-media.s3.amazonaws.com/wp-content/uploads/2018/10/19000855/Wallpaper-Kemra-Bookshelf-1.jpg); */
     opacity: 0.2;
     background-position: center;
     background-size: auto;
@@ -31,8 +30,6 @@
     position: relative;
     display: flex;
     justify-content: center;
-    /* align-items: center; */
-
 }
 
 .under-header {
@@ -45,17 +42,15 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    /* align-items: flex-start; */
-
 }
 
 .right-components {
-    height: 515px;
+    height: 425px;
     width: 180px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* align-items: flex-end; */
+    margin-bottom: 25px;
 }
 
 button {
@@ -73,19 +68,37 @@ button {
 input {
     background-color: rgba(53, 51, 51, 0.89); 
     border-width: 1px;
-    height: 25px;
+    height: 20px;
+    width: 100%;
     padding: 5px;
     color: white;
 }
 
 .right-pg-text {
+    background-color: #d16868b2;
     color: white;
-    font-family: "Poiret One", cursive;
-    font-weight: bold;
-    font-size: 30px;
-    margin-bottom: 10px;
+    /* font-family: "Poiret One", cursive; */
+    font-family: 'Alegreya Sans SC', sans-serif;
+    /* font-weight: bolder; */
+    font-size: 28px;
+    /* margin-bottom: 10px; */
 }
 
+.right-pg-genre {
+    height: 155px;
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+}
+
+.right-pg-add {
+    font-size: 28px;
+    display: flex;
+    padding-left: 10px;
+    align-items: center;
+    height: 100px;
+}
 @media (max-width: 1000px) {
     .App {
       height: 600vh;

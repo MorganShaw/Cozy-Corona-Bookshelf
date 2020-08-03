@@ -23,7 +23,7 @@ class App extends React.Component {
     this.getBooks();
   }
   
-  getBooks = (genre) => {
+  getBooks = () => {
     axios.get('/api/books')
     .then(res => {
       this.setState({
@@ -43,8 +43,7 @@ class App extends React.Component {
     }).catch(err => console.log(err))
   }
 
-  getGenre = (e, genre) => {
-    e.preventDefault()
+  getGenre = (genre) => {
     axios.get(`/api/books/genre?genre=${genre}`)
     .then(res => {
       this.setState({
@@ -53,22 +52,26 @@ class App extends React.Component {
     }).catch(err => console.log(err))
   }
 
-  deleteBook = (e, id) => {
-    e.preventDefault();
+  deleteBook = (id) => {
     axios.delete(`/api/books/${id}`)
     .then(res => {
+      const index = this.state.books.findIndex(book => book.id === id)
+      let booksCopy = this.state.books.slice()
+      booksCopy.splice(index, 1)
       this.setState({
-        books: res.data
+        books: booksCopy
       })
     }).catch(err => console.log(err))
   }
 
-  completeBook = (e, id) => {
-    e.preventDefault();
+  completeBook = (id) => {
     axios.put(`/api/books/complete/${id}`)
     .then(res => {
+      const index = this.state.books.findIndex(book => book.id === id)
+      let booksCopy = this.state.books.slice()
+      booksCopy[index] = res.data
       this.setState({
-        books: res.data
+        books: booksCopy
       })
     }).catch(err => console.log(err))
   }
