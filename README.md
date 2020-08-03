@@ -47,9 +47,10 @@ Structure:
     - reset.css
     - Components/
         - Header.js
-        - Form.js
+        - AddBook.js
         - Book.js
         - Bookshelf.js
+        - GenreSelector.js
 
 #### ***Connecting front end and backend config in package.json***
 <code>
