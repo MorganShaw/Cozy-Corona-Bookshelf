@@ -13,8 +13,8 @@ const Book = (props) => {
             <div className="book-box" style={style}>
                 <h1 className="book-done">You finished {title}</h1>  
                 <div className="bk-done-container">
-                    <button onClick={() => props.completeBook(id)}>RE-READ</button>
-                    <button onClick={() => props.deleteBook(id)}>DELETE</button>
+                    <button onClick={(e) => props.completeBook(e, id)}>RE-READ</button>
+                    <button onClick={(e) => props.deleteBook(e, id)}>DELETE</button>
                 </div>             
             </div>
         ) : (
@@ -24,8 +24,8 @@ const Book = (props) => {
                     <h2 className="book-author">{author}</h2>
                 </div>
                 <div className="bk-btn-container">
-                    <button onClick={() => props.completeBook(id)}>DONE</button>
-                    <button onClick={() => props.deleteBook(id)}>DELETE</button>
+                    <button onClick={(e) => props.completeBook(e, id)}>DONE</button>
+                    <button onClick={(e) => props.deleteBook(e, id)}>DELETE</button>
                 </div>
             </div>
         )}

@@ -40,7 +40,7 @@
     width: 100%;
     height: 800px;
     position: unset;
-    margin-top: 180px;
+    margin-top: 210px;
     padding-top: 10px;
     display: flex;
     flex-direction: row;
@@ -50,7 +50,7 @@
 }
 
 .right-components {
-    height: 730px;
+    height: 515px;
     width: 180px;
     display: flex;
     flex-direction: column;
@@ -84,14 +84,6 @@ input {
     font-weight: bold;
     font-size: 30px;
     margin-bottom: 10px;
-}
-
-.right-pg-text-small {
-    color: white;
-    font-family: "Poiret One", cursive;
-    font-weight: bold;
-    font-size: 26px;
-    margin-bottom: 60px;
 }
 
 @media (max-width: 1000px) {

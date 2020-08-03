@@ -38,25 +38,25 @@ class AddBook extends React.Component {
                     <input 
                         name="title"
                         type="text"
-                        placeholder="Title"
+                        placeholder="title"
                         onChange={(e) => this.infoHandler(e)}
                         value={title}/>
                     <input 
                         name="author"
                         type="text"
-                        placeholder="Author"
+                        placeholder="author"
                         onChange={(e) => this.infoHandler(e)}
                         value={author}/>
                     <input 
                         name="genre"
                         type="text"
-                        placeholder="Genre"
+                        placeholder="genre"
                         onChange={(e) => this.infoHandler(e)}
                         value={genre}/>
                     <input 
                         name="coverImg"
                         type="text"
-                        placeholder="Cover Image URL (Optional)"
+                        placeholder="cover Image URL (optional)"
                         onChange={(e) => this.infoHandler(e)}
                         value={coverImg}/>
                     <button>SUBMIT</button>

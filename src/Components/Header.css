@@ -1,10 +1,11 @@
 header {
-    height: 120px;
+    height: 150px;
     width: 100%;
     background-color: #202020b4;
     top: 40px;
     position: absolute;
     display: flex;
+    flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     padding: 10px;
@@ -21,15 +22,26 @@ p {
     display: flex;   
 }
  
+.subtitle {
+    font-size: 28px;
+    color: white;
+    margin-top: 10px;
+}
 
 @media (max-width: 1000px) {
     p {
       font-size: 70px;
+    }
+    .subtitle {
+        font-size: 20px;
     }
 }
 
 @media (max-width: 790px) {
     p {
         font-size: 50px;
+    }
+    .subtitle {
+        font-size: 16px;
     }
 }
