@@ -1,6 +1,6 @@
 # NoDB Project To Do List
 
-Visual mockup <a href ="https://www.figma.com/file/T96hsjPDiG18zqsOp6WzwU/DevMtn---No-DB---Cozy-COVID-Bookshelf---Wireframe?node-id=0%3A1">here</a>.
+Visual mockup <a href ="https://www.figma.com/file/T96hsjPDiG18zqsOp6WzwU/DevMtn-No-DB-Cozy-COVID-Bookshelf-Wireframe?node-id=0%3A1">here</a>.
 
 ### MVP
 Description: A small bookshelf app inspired by COVID-induced downtime that displays a selection of books I want to read.
