@@ -55,5 +55,5 @@ Structure:
 #### ***Connecting front end and backend config in package.json***
 <code>
 "main": "./server/index.js", </br>
-"proxy": "http://localhost:4343",
+"proxy": "http://localhost:####",
 </code>
